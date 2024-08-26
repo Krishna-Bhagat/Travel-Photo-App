@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Travel_Photo_App</string>
+    <string name="travel_photo_app">Travel Photo App</string>
+    <string name="janakpur_temple">Janakpur temple</string>
+    <string name="todo">TODO</string>
+    <string name="previous" />
+    <string name="next" />
+    <string name="janakpurdham">Janakpurdham</string>
+    <string name="janakpur_also_known_as_janakpurdham_was_founded_in_the_early_18th_century_it_is_a_sub_metropolitan_city_in_dhanusa_district_of_nepal_this_city_is_located_about_225km_south_east_of_kathmandu_janakpur_is_the_third_largest_city_in_the_terai_region_after_biratnagar_and_birgunj_and_it_is_the_seventh_largest_city_in_nepal_the_five_major_rivers_surrounding_janakpur_are_dudhmati_jalad_rato_balan_and_kamala_the_climate_here_is_humid_subtropical">Janakpur, also known as Janakpurdham, was founded in the early 18th century. It is a sub-metropolitan city in Dhanusa District of Nepal. This city is located about 225km south-east of Kathmandu. Janakpur is the third largest city in the Terai region after Biratnagar and Birgunj, and it is the seventh largest city in Nepal. The five major rivers surrounding Janakpur are Dudhmati, Jalad, Rato, Balan and Kamala. The climate here is humid-subtropical.</string>
+    <string name="janakpurdham_temple_also_known_as_janaki_mandir_is_a_historic_hindu_temple_located_in_janakpur_nepal_it_is_dedicated_to_goddess_sita_the_consort_of_lord_rama_and_is_renowned_for_its_exquisite_architecture_combining_mughal_and_koiri_styles_the_temple_is_a_significant_pilgrimage_site_attracting_devotees_from_across_nepal_and_india_particularly_during_the_vivah_panchami_festival_celebrating_the_divine_marriage_of_sita_and_rama">Janakpurdham Temple, also known as Janaki Mandir, is a historic Hindu temple located in Janakpur, Nepal. It is dedicated to Goddess Sita, the consort of Lord Rama, and is renowned for its exquisite architecture, combining Mughal and Koiri styles. The temple is a significant pilgrimage site, attracting devotees from across Nepal and India, particularly during the Vivah Panchami festival celebrating the divine marriage of Sita and Rama.</string>
+    <string name="lumbini_temple" />
+    <string name="pokhara" />
+    <string name="pashupatinath_temple" />
+    <string name="chitwan_national_park">chitwan national park</string>
+    <string name="swayambhunath_temple">swayambhunath_temple</string>
+</resources>

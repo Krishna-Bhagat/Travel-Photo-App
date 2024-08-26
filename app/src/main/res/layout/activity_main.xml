@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/travel_photo_app"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/pic0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/janakpur_temple"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002"
+            android:src="@drawable/pic0" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/pokhara"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"
+            app:layout_constraintVertical_bias="0.002"
+            android:src="@drawable/pic1" />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/lumbini_temple"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"
+            app:layout_constraintVertical_bias="0.002"
+            android:src="@drawable/pic2" />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/pashupatinath_temple"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002"
+            android:alpha="0"
+            android:src="@drawable/pic3" />
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/chitwan_national_park"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002"
+            android:alpha="0"
+            android:src="@drawable/pic4" />
+        <ImageView
+            android:id="@+id/pic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/swayambhunath_temple"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002"
+            android:alpha="0"
+            android:src="@drawable/pic5" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F0E6D6D6"
+            android:contentDescription="@string/previous"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_media_rew"
+            app:tint="#673AB7" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="#F0E6D6D6"
+            android:contentDescription="@string/next"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_media_ff"
+            app:tint="#673AB7" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="#EED7D7"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/janakpurdham"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/janakpurdham_temple_also_known_as_janaki_mandir_is_a_historic_hindu_temple_located_in_janakpur_nepal_it_is_dedicated_to_goddess_sita_the_consort_of_lord_rama_and_is_renowned_for_its_exquisite_architecture_combining_mughal_and_koiri_styles_the_temple_is_a_significant_pilgrimage_site_attracting_devotees_from_across_nepal_and_india_particularly_during_the_vivah_panchami_festival_celebrating_the_divine_marriage_of_sita_and_rama"
+        android:textSize="20sp" />
+
+</LinearLayout>
